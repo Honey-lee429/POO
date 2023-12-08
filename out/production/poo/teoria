@@ -1,0 +1,35 @@
+HERANÇA DE IMPLEMENTAÇÃO
+    - Herança pobre, a mais simples, não implementa nenhum método ou atributo, somenta herda de outro objeto
+
+HERANÇA PARA DIFERENÇA
+    - Herança mais completa
+
+Abstract and Final
+    - Classe Abstrata
+    não pode ser instanciada. Só pode servir como progenitora
+
+    - Método Abstrato
+    declarado, mas não implementado na progenitora. Somente declarado na interface ou numa classe abstrata
+
+    - Classe Final
+    não pode ser herdada por outra classe. Obrigatoriamente folha.	Não pode ter filhos
+
+    -Método Final
+    não pode ser sobresctito pelas suas sub-classes. Obrigatoriamente herdado
+
+
+ASSINATURA DO MÉTODO é a quantidade e os tipos dos parâmetros
+
+Assinatura Igual:
+public void calcMedia(int n1, int n2)
+public void calcMedia(int v1, int v2)
+
+Assinatura Diferente:
+public void calcMedia(int n1, int n2)
+public void calcMedia(int n1, double n2)
+public void calcMedia(int n1, int n2, double n3)
+
+
+POLIMORFISMO
+- Override: sobrescrita (acontece quando substituimos um metodo de uma superclasse na sua subclasse, usando a mesma assinatura)
+- Overload: sobrecarga (mesmo nome de método e assinatura diferente)
