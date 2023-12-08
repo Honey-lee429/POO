@@ -1,0 +1,18 @@
+HERANÇA DE IMPLEMENTAÇÃO
+- Herança pobre, a mais simples, não implementa nenhum método ou atributo, somenta herda de outro objeto
+
+HERANÇA PARA DIFERENÇA
+- Herança mais completa
+
+Abstract and Final
+- Classe Abstrata
+não pode ser instanciada. Só pode servir como progenitora
+
+- Método Abstrato
+declarado, mas não implementado na progenitora. Somente declarado na interface ou numa classe abstrata
+
+- Classe Final
+não pode ser herdada por outra classe. Obrigatoriamente folha.	Não pode ter filhos
+
+-Método Final
+não pode ser sobresctito pelas suas sub-classes. Obrigatoriamente herdado

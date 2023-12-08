@@ -1,9 +1,4 @@
-package lutador;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+package agregacao_classes;
 
 public class Service {
     public static <l> void main(String[] args) {

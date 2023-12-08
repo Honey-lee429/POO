@@ -1,4 +1,4 @@
-package lutador;
+package agregacao_classes;
 
 public class Lutador {
     private String nome;

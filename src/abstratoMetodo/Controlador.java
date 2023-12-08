@@ -1,7 +1,7 @@
 package abstratoMetodo;
 
 public interface Controlador {
-    public abstract void ligar();
+    public void ligar();
     public abstract void desligar();
     public abstract void abrirMenu();
     public abstract void fecharMenu();

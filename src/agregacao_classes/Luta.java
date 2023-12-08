@@ -1,4 +1,4 @@
-package lutador;
+package agregacao_classes;
 
 import java.util.Random;
 
