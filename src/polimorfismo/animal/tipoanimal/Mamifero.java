@@ -1,4 +1,6 @@
-package polimorfismo;
+package polimorfismo.animal.tipoanimal;
+
+import polimorfismo.animal.tipoanimal.Animal;
 
 public class Mamifero extends Animal {
     private String corPelo;

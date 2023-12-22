@@ -1,6 +1,6 @@
 package polimorfismo.animal;
 
-import polimorfismo.Peixe;
+import polimorfismo.animal.tipoanimal.Peixe;
 
 public class PeixePalhaco extends Peixe {
 }

@@ -1,4 +1,4 @@
-package polimorfismo;
+package polimorfismo.animal.tipoanimal;
 
 public abstract class Animal {
      protected float peso;

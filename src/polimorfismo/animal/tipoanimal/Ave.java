@@ -1,6 +1,8 @@
-package polimorfismo;
+package polimorfismo.animal.tipoanimal;
 
-public class Ave extends Animal{
+import polimorfismo.animal.tipoanimal.Animal;
+
+public class Ave extends Animal {
     private String cor;
 
     @Override

@@ -1,4 +1,4 @@
-package polimorfismo;
+package polimorfismo.animal;
 
 import polimorfismo.animal.CachorroSobrecarga;
 import polimorfismo.animal.Canguru;

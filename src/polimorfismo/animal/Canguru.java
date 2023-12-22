@@ -1,6 +1,6 @@
 package polimorfismo.animal;
 
-import polimorfismo.Mamifero;
+import polimorfismo.animal.tipoanimal.Mamifero;
 
 public class Canguru extends Mamifero {
     public void usarBolsa() {

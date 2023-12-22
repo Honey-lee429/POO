@@ -1,6 +1,6 @@
 package polimorfismo.animal;
 
-import polimorfismo.Ave;
+import polimorfismo.animal.tipoanimal.Ave;
 
 public class Papagaio extends Ave {
 }

@@ -1,6 +1,6 @@
 package polimorfismo.animal;
 
-import polimorfismo.Reptil;
+import polimorfismo.animal.tipoanimal.Reptil;
 
 public class Tartaruga extends Reptil {
     public void locomover(){

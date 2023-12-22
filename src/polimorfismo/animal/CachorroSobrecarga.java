@@ -1,6 +1,6 @@
 package polimorfismo.animal;
 
-import polimorfismo.Mamifero;
+import polimorfismo.animal.tipoanimal.Mamifero;
 
 import java.util.Objects;
 

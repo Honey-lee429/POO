@@ -4,7 +4,7 @@ HERANÇA DE IMPLEMENTAÇÃO
 HERANÇA PARA DIFERENÇA
     - Herança mais completa
 
-Abstract and Final
+    # Abstract and Final
     - Classe Abstrata
     não pode ser instanciada. Só pode servir como progenitora
 
@@ -17,19 +17,30 @@ Abstract and Final
     -Método Final
     não pode ser sobresctito pelas suas sub-classes. Obrigatoriamente herdado
 
+    # Interface e Composição
+    - Composição --> reutiliza código, mas não tem polimorfismo
+    - Interface --> tem polimorfismo, mas não reutiliza código
+
+STATIC --> a variável ou o método é estatico da classe e não do objeto instanciado
 
 ASSINATURA DO MÉTODO é a quantidade e os tipos dos parâmetros
 
-Assinatura Igual:
-public void calcMedia(int n1, int n2)
-public void calcMedia(int v1, int v2)
+    Assinatura Igual:
+    public void calcMedia(int n1, int n2)
+    public void calcMedia(int v1, int v2)
 
-Assinatura Diferente:
-public void calcMedia(int n1, int n2)
-public void calcMedia(int n1, double n2)
-public void calcMedia(int n1, int n2, double n3)
+    Assinatura Diferente:
+    public void calcMedia(int n1, int n2)
+    public void calcMedia(int n1, double n2)
+    public void calcMedia(int n1, int n2, double n3)
 
 
 POLIMORFISMO
-- Override: sobrescrita (acontece quando substituimos um metodo de uma superclasse na sua subclasse, usando a mesma assinatura)
-- Overload: sobrecarga (mesmo nome de método e assinatura diferente)
+    - Override: sobrescrita (acontece quando substituimos um metodo de uma superclasse na sua subclasse, usando a mesma assinatura)
+    - Overload: sobrecarga (mesmo nome de método e assinatura diferente)
+
+############
+referencia  =  objeto
+Conta conta = new Conta();
+###########
+

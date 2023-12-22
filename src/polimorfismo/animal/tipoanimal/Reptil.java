@@ -1,21 +1,23 @@
-package polimorfismo;
+package polimorfismo.animal.tipoanimal;
 
-public class Peixe extends Animal{
+import polimorfismo.animal.tipoanimal.Animal;
+
+public class Reptil extends Animal {
     private String cor;
 
     @Override
     public void locomover() {
-        System.out.println("nadando");
+        System.out.println("reptil rasteja");
     }
 
     @Override
     public void alimentar() {
-        System.out.println("comendo plancton");
+        System.out.println("reptil come animais");
     }
 
     @Override
     public void emitirSom() {
-        System.out.println("glu glu");
+        System.out.println("som de reptil");
     }
 
     public String getCor() {

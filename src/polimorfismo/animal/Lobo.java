@@ -1,7 +1,5 @@
 package polimorfismo.animal;
 
-import polimorfismo.Mamifero;
-
 public class Lobo extends CachorroSobrecarga {
     public void cacando(){
         System.out.println("lobo cacando");
